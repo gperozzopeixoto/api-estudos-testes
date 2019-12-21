@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\api-estudos-testes\\Estudos.Test\\Estudos.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj",
+        "projectName": "Estudos.Domain",
+        "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj",
+        "packagesPath": "C:\\Users\\gabriel.peixoto\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projetos\\api-estudos-testes\\Estudos.Test\\Estudos.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api-estudos-testes\\Estudos.Test\\Estudos.Test.csproj",
+        "projectName": "Estudos.Test",
+        "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Test\\Estudos.Test.csproj",
+        "packagesPath": "C:\\Users\\gabriel.peixoto\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[28.4.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

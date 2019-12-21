@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "2e0319b5ef75d5ceabc128f2a6f35217f5ae160b"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Estudos.Service/1.0.0": {
+        "dependencies": {
+          "Estudos.Domain": "1.0.0",
+          "FluentValidation": "8.6.0"
+        },
+        "runtime": {
+          "Estudos.Service.dll": {}
+        }
+      },
+      "FluentValidation/8.6.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {},
+      "Estudos.Domain/1.0.0": {
+        "runtime": {
+          "Estudos.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Estudos.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/8.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jGQNISJy2trrDq2yufeJ3NwHKgAhC6Xpfu9ijDtDkgfiL35x/BA1R3xItoATtOQyrozP+rUTPrZHFHKtmI4ymw==",
+      "path": "fluentvalidation/8.6.0",
+      "hashPath": "fluentvalidation.8.6.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    },
+    "Estudos.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

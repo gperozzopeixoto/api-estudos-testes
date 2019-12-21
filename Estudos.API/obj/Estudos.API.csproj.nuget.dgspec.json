@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\api-estudos-testes\\Estudos.API\\Estudos.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\api-estudos-testes\\Estudos.API\\Estudos.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api-estudos-testes\\Estudos.API\\Estudos.API.csproj",
+        "projectName": "Estudos.API",
+        "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.API\\Estudos.API.csproj",
+        "packagesPath": "C:\\Users\\gabriel.peixoto\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api-estudos-testes\\Estudos.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj"
+              },
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.CrossCutting\\Estudos.Infra.CrossCutting.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.CrossCutting\\Estudos.Infra.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.ExpressionMapping": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj",
+        "projectName": "Estudos.Domain",
+        "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj",
+        "packagesPath": "C:\\Users\\gabriel.peixoto\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.CrossCutting\\Estudos.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.CrossCutting\\Estudos.Infra.CrossCutting.csproj",
+        "projectName": "Estudos.Infra.CrossCutting",
+        "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.CrossCutting\\Estudos.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\gabriel.peixoto\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj"
+              },
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.Data\\Estudos.Infra.Data.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.Data\\Estudos.Infra.Data.csproj"
+              },
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Service\\Estudos.Service.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Service\\Estudos.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.Data\\Estudos.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.Data\\Estudos.Infra.Data.csproj",
+        "projectName": "Estudos.Infra.Data",
+        "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.Data\\Estudos.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\gabriel.peixoto\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "EFCore.BulkExtensions": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Projetos\\api-estudos-testes\\Estudos.Service\\Estudos.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\api-estudos-testes\\Estudos.Service\\Estudos.Service.csproj",
+        "projectName": "Estudos.Service",
+        "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Service\\Estudos.Service.csproj",
+        "packagesPath": "C:\\Users\\gabriel.peixoto\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\api-estudos-testes\\Estudos.Domain\\Estudos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
