@@ -6,7 +6,6 @@ using Estudos.Domain.V1.Entidades.Usuario;
 using Estudos.Domain.V1.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
-using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -16,40 +15,41 @@ namespace Estudos.API.V1.Usuario.Controllers
     [ApiController]
     public class UsuarioController : BaseController
     {
+        private readonly IMapper _mapper;
+        private readonly IUsuarioService _service;
 
-        private readonly IMapper mapper;
-        private readonly IUsuarioService service;
-
-        public UsuarioController(IMapper _mapper, IUsuarioService _service)
+        public UsuarioController(IMapper mapper, IUsuarioService service)
         {
-            mapper = _mapper;
-            service = _service;
+            _mapper = mapper;
+            _service = service;
         }
 
         [HttpGet]
-        [SwaggerResponse(200, type: typeof(CadastroUsuarioViewModel))]
+        [SwaggerResponse(200, type: typeof(HttpBodyResponse<UsuarioViewModel>))]
         [SwaggerResponse(404, type: typeof(HttpResponse))]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<ActionResult<HttpResponse>> Get([FromBody] LoginViewModel dadosLogin)
         {
-            return new string[] { "value1", "value2" };
-        }
+            UsuarioBE dadosUsuario = await _service.ObterUsuarioPorEmailESenha(dadosLogin.Email, dadosLogin.Senha);
 
-        [HttpGet("{codigo}")]
-        [SwaggerResponse(200, type: typeof(CadastroUsuarioViewModel))]
-        [SwaggerResponse(404, type: typeof(HttpResponse))]
-        public ActionResult<string> Get(int codigo)
-        {
-            return "value";
+            if (!_service.EhValido())
+            {
+                return ApiResponse(code: HttpStatusCode.NotFound, _service.ObterNotificacoes());
+            }
+
+            UsuarioViewModel retorno = _mapper.Map<UsuarioViewModel>(dadosUsuario);
+            return ApiResponse(code: HttpStatusCode.OK, data: retorno);
         }
 
         [HttpPost]
         public async Task<ActionResult<HttpResponse>> Post([FromBody] CadastroUsuarioViewModel _usuario)
         {
-            var usuario = mapper.Map<UsuarioBE>(_usuario);
-            await service.Incluir(usuario);
+            UsuarioBE usuario = _mapper.Map<UsuarioBE>(_usuario);
+            await _service.Incluir(usuario);
 
-            if (!service.EhValido())
-                return ApiResponse(code: HttpStatusCode.NotFound, service.ObterNotificacoes());
+            if (!_service.EhValido())
+            {
+                return ApiResponse(code: HttpStatusCode.NotFound, _service.ObterNotificacoes());
+            }
 
             return ApiResponse(code: HttpStatusCode.OK);
         }
@@ -57,12 +57,14 @@ namespace Estudos.API.V1.Usuario.Controllers
         [HttpPut("{codigo}")]
         public async Task<ActionResult<HttpResponse>> Put(int codigo, [FromBody] CadastroUsuarioViewModel _usuario)
         {
-            var usuario = mapper.Map<UsuarioBE>(_usuario);
+            UsuarioBE usuario = _mapper.Map<UsuarioBE>(_usuario);
             usuario.DefinirCodigo(codigo);
-            await service.Atualizar(usuario);
+            await _service.Atualizar(usuario);
 
-            if (!service.EhValido())
-                return ApiResponse(code: HttpStatusCode.NotFound, service.ObterNotificacoes());
+            if (!_service.EhValido())
+            {
+                return ApiResponse(code: HttpStatusCode.NotFound, _service.ObterNotificacoes());
+            }
 
             return ApiResponse(code: HttpStatusCode.NoContent);
         }
@@ -70,9 +72,11 @@ namespace Estudos.API.V1.Usuario.Controllers
         [HttpDelete("{codigo}")]
         public async Task<ActionResult<HttpResponse>> Delete(int codigo)
         {
-            await service.Remover(codigo);
-            if (!service.EhValido())
-                return ApiResponse(code: HttpStatusCode.NotFound, service.ObterNotificacoes());
+            await _service.Remover(codigo);
+            if (!_service.EhValido())
+            {
+                return ApiResponse(code: HttpStatusCode.NotFound, _service.ObterNotificacoes());
+            }
 
             return ApiResponse(code: HttpStatusCode.NoContent);
         }

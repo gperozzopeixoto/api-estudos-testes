@@ -7,5 +7,6 @@ namespace Estudos.Domain.V1.Interfaces.Services
     public interface IUsuarioService : IBancoDadosService<UsuarioBE>
     {
         Task SalvarUsuarioAsync(UsuarioBE usuario);
+        Task<UsuarioBE> ObterUsuarioPorEmailESenha(string email, string senha);
     }
 }

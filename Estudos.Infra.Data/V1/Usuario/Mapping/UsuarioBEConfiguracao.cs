@@ -13,7 +13,6 @@ namespace Estudos.Infra.Data.V1.Usuario.Mapping
             builder.Property(x => x.Nome).IsRequired().HasMaxLength(100);
             builder.Property(x => x.Email).IsRequired().HasMaxLength(100);
             builder.Property(x => x.Senha).IsRequired().HasMaxLength(100);
-            builder.HasQueryFilter(x => x.DataExclusao == null);
         }
     }
 }

@@ -8,7 +8,8 @@ namespace Estudos.API.V1.Usuario.Mapper
     {
         public MapperProfile()
         {
-            CreateMap<CadastroUsuarioViewModel, UsuarioBE>().ReverseMap();
+            CreateMap<CadastroUsuarioViewModel, UsuarioBE>();
+            CreateMap<UsuarioBE, UsuarioViewModel>();
         }
     }
 }

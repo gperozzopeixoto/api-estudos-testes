@@ -7,5 +7,6 @@ namespace Estudos.Domain.V1.Interfaces.Repositories
     public interface IUsuarioRepository : IRepository<UsuarioBE>
     {
         Task SalvarUsuario(UsuarioBE usuario);
+        Task<UsuarioBE> ObterUsuarioPorEmailESenha(string email, string senha);
     }
 }

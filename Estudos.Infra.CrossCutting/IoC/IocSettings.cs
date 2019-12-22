@@ -5,7 +5,6 @@ using Estudos.Infra.Data.V1.Usuario.Repositories;
 using Estudos.Service.V1.Usuario.Services;
 using Estudos.Service.V1.Usuario.Validadores;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 
 namespace Estudos.Infra.CrossCutting.IoC
 {
