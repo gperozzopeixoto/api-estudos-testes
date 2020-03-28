@@ -19,7 +19,6 @@ C:\Projetos\api-estudos-testes\Estudos.Domain\bin\Debug\netcoreapp2.2\Estudos.Do
 C:\Projetos\api-estudos-testes\Estudos.Domain\bin\Debug\netcoreapp2.2\Estudos.Domain.dll
 C:\Projetos\api-estudos-testes\Estudos.Domain\bin\Debug\netcoreapp2.2\Estudos.Domain.pdb
 C:\Projetos\api-estudos-testes\Estudos.Domain\obj\Debug\netcoreapp2.2\Estudos.Domain.csprojAssemblyReference.cache
-C:\Projetos\api-estudos-testes\Estudos.Domain\obj\Debug\netcoreapp2.2\Estudos.Domain.csproj.CoreCompileInputs.cache
 C:\Projetos\api-estudos-testes\Estudos.Domain\obj\Debug\netcoreapp2.2\Estudos.Domain.AssemblyInfoInputs.cache
 C:\Projetos\api-estudos-testes\Estudos.Domain\obj\Debug\netcoreapp2.2\Estudos.Domain.AssemblyInfo.cs
 C:\Projetos\api-estudos-testes\Estudos.Domain\obj\Debug\netcoreapp2.2\Estudos.Domain.dll

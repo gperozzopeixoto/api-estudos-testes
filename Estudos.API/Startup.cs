@@ -29,15 +29,7 @@ namespace Estudos.API
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, DefaultContext context)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseHsts();
-            }
-
+          
             app.UsarServicoSwagger();
             app.UseHttpsRedirection();
             app.UseMvc();

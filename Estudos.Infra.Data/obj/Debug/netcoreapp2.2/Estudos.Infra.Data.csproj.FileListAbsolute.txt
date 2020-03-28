@@ -13,7 +13,6 @@ C:\Users\gabriel.peixoto\Desktop\Estudos\Estudos\Estudos.Infra.Data\bin\Debug\ne
 C:\Users\gabriel.peixoto\Desktop\Estudos\Estudos\Estudos.Infra.Data\obj\Debug\netcoreapp2.2\Estudos.Infra.Data.dll
 C:\Users\gabriel.peixoto\Desktop\Estudos\Estudos\Estudos.Infra.Data\obj\Debug\netcoreapp2.2\Estudos.Infra.Data.pdb
 C:\Projetos\api-estudos-testes\Estudos.Infra.Data\obj\Debug\netcoreapp2.2\Estudos.Infra.Data.csprojAssemblyReference.cache
-C:\Projetos\api-estudos-testes\Estudos.Infra.Data\obj\Debug\netcoreapp2.2\Estudos.Infra.Data.csproj.CoreCompileInputs.cache
 C:\Projetos\api-estudos-testes\Estudos.Infra.Data\obj\Debug\netcoreapp2.2\Estudos.Infra.Data.AssemblyInfoInputs.cache
 C:\Projetos\api-estudos-testes\Estudos.Infra.Data\obj\Debug\netcoreapp2.2\Estudos.Infra.Data.AssemblyInfo.cs
 C:\Projetos\api-estudos-testes\Estudos.Infra.Data\obj\Debug\netcoreapp2.2\Estudos.Infra.Data.dll

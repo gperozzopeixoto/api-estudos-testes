@@ -52,7 +52,6 @@ C:\Projetos\api-estudos-testes\Estudos.API\bin\Debug\netcoreapp2.2\Estudos.Infra
 C:\Projetos\api-estudos-testes\Estudos.API\bin\Debug\netcoreapp2.2\Estudos.Infra.Data.pdb
 C:\Projetos\api-estudos-testes\Estudos.API\bin\Debug\netcoreapp2.2\Estudos.Service.pdb
 C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.csprojAssemblyReference.cache
-C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.csproj.CoreCompileInputs.cache
 C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.RazorAssemblyInfo.cache
 C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.RazorAssemblyInfo.cs
 C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.AssemblyInfoInputs.cache
@@ -61,3 +60,6 @@ C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.R
 C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.csproj.CopyComplete
 C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.dll
 C:\Projetos\api-estudos-testes\Estudos.API\obj\Debug\netcoreapp2.2\Estudos.API.pdb
+C:\Projetos\api-estudos-testes\Estudos.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Projetos\api-estudos-testes\Estudos.API\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Projetos\api-estudos-testes\Estudos.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

@@ -24,7 +24,6 @@ C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\bin\Debug\netcoreapp2.
 C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\bin\Debug\netcoreapp2.2\Estudos.Infra.Data.pdb
 C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\bin\Debug\netcoreapp2.2\Estudos.Service.pdb
 C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\obj\Debug\netcoreapp2.2\Estudos.Infra.CrossCutting.csprojAssemblyReference.cache
-C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\obj\Debug\netcoreapp2.2\Estudos.Infra.CrossCutting.csproj.CoreCompileInputs.cache
 C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\obj\Debug\netcoreapp2.2\Estudos.Infra.CrossCutting.AssemblyInfoInputs.cache
 C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\obj\Debug\netcoreapp2.2\Estudos.Infra.CrossCutting.AssemblyInfo.cs
 C:\Projetos\api-estudos-testes\Estudos.Infra.CrossCutting\obj\Debug\netcoreapp2.2\Estudos.Infra.CrossCutting.csproj.CopyComplete
